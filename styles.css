@@ -18,38 +18,34 @@ html, body{
 
 .flexcontainer{
     display: flex;
-    align-items: center;
-    width: 780px; 
-    background: #FFFFFF; 
-    margin: 0 auto; 
-    border: 1px solid #000000; 
-    text-align: left; 
+    height: 98%;
 }
 
 .sidebar{
-    width: 120px;
-        float: left; 
-        width: 120px; 
-        background: #EBEBEB; 
-        padding: 200px 100px 15px 20px; 
+    width: 120px; 
+        height: 100%;
+        margin: 5px;
+        background-color: #EBEBEB; 
+        padding: 10px; 
     }
     /* pxالعرض هنا يجب ان يكون 120 */
-}
 
 .header{
-    margin: 0;
-    height: 80px;
+    margin: 6px;
+    height: 20%px;
+    padding: 15px;}
     /* pxالطول هنا يجب ان يكون 80 */
-display: block;
-}
 .main{
-    margin: 0px ;
+    margin: 5px ;
     height: 80%;
-    display:block;
-        margin: 0 0 0 250px; 
-        padding: 0 20px 20px 20px; 
+        padding: 6px; 
+        border-radius: 20px;
     }
 
+
+    .container{
+        height: 100%;
+    }
 
 
 a{
@@ -65,8 +61,6 @@ a{
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
 
  .a :hover{ 
-     
-    
     background-color: red;}
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
