@@ -1,6 +1,8 @@
 html, body{
     margin: 0;
     height: 100%;
+    background-color: aquamarine;
+
 }
 
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
@@ -13,28 +15,66 @@ html, body{
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
+
+.flexcontainer{
+    display: flex;
+    align-items: center;
+    width: 780px; 
+    background: #FFFFFF; 
+    margin: 0 auto; 
+    border: 1px solid #000000; 
+    text-align: left; 
+}
+
 .sidebar{
+    width: 120px;
+        float: left; 
+        width: 120px; 
+        background: #EBEBEB; 
+        padding: 200px 100px 15px 20px; 
+    }
     /* pxالعرض هنا يجب ان يكون 120 */
 }
 
 .header{
+    margin: 0;
+    height: 80px;
     /* pxالطول هنا يجب ان يكون 80 */
+display: block;
 }
-
 .main{
+    margin: 0px ;
+    height: 80%;
+    display:block;
+        margin: 0 0 0 250px; 
+        padding: 0 20px 20px 20px; 
+    }
 
-}
+
 
 a{
+    background-color:white ;
+    border: 4 px red;
+    border-radius: 4px;
+    padding: 14px 25px;
+  text-align: center;
+ 
+  display: inline-block;
     color: darkgray;
+    text-decoration: none;}
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
-}
 
+ .a :hover{ 
+     
+    
+    background-color: red;}
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
 /* (p) غير محاذاة الفقرات لتصبح بالوسط */
 
-
+.p1{
+    text-align: center;
+}
 
 h1{
     margin: 0;
